@@ -1,0 +1,42 @@
+
+body {
+    background-color: #1d1c1c;
+    color: white;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.time {
+    font-size: 100px;
+}
+
+.emot {
+    font-size: 25px;
+}
+
+.hi {
+    font-size: 40px;
+}
+
+.barbary {
+    height: 80px;
+}
+
+.barbary-container {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+.icon-container {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.me {
+    box-shadow: white 0px 0px 0px 1px inset, white 0px 0px 0px 2px;
+
+}
