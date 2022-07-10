@@ -29,14 +29,3 @@ body {
     right: 20px;
     bottom: 0px;
 }
-
-.icon-container {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
-
-.me {
-    box-shadow: white 0px 0px 0px 1px inset, white 0px 0px 0px 2px;
-
-}

@@ -1,6 +1,7 @@
 import * as React from "react";
 import './../style_sheets/main.css';
-import {AppBar, Avatar, Grid} from "@mui/material";
+import {Grid} from "@mui/material";
+import Navbar from "./nav-bar";
 
 const Main = () => {
 
@@ -20,9 +21,7 @@ const Main = () => {
     return (
         <Grid className={"main-container"} container direction={"column"} justifyContent={"center"} alignItems={"center"}>
 
-            <Grid className={"icon-container"}>
-                <Avatar className={"me"} alt="Barbary Théo" src="/images/me.jpeg" sx={{ width: 80, height: 80 }}/>
-            </Grid>
+            <Navbar />
 
             <Grid container direction={"row"} justifyContent={"center"} >
                 <Grid item id={"time"} className={"time"}>
