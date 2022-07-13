@@ -1,11 +1,36 @@
 
 .icon-container {
     position: absolute;
+    width: 100%;
     left: 20px;
     top: 20px;
 }
 
 .me {
-    box-shadow: white 0px 0px 0px 1px inset, white 0px 0px 0px 2px;
+    border: 1px solid white;
+    width: 6% !important;
+    height: auto !important;
+}
 
+.me-popover {
+    margin-top: 5%;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.list-item-popover {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.list-item-text-popover {
+    text-align: center !important;
+}
+
+.toyota-image {
+    width: 50px !important;
+    height: auto !important;
+}
+
+.linkedin-icon {
+    margin-left: 0.8% !important;
 }
