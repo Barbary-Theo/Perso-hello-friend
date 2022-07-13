@@ -53,7 +53,7 @@ const Navbar = () => {
                     </ListItem>
                     <ListItem className={"list-item-text-popover"}>
                         <ListItemText>
-                            <Typography variant={"h6"} sx={{ p: 2 }}>Barbary Théo 🥝</Typography>
+                            <Typography variant={"h6"} sx={{ p: 2 }}>Barbary Théo 🇫🇷</Typography>
                         </ListItemText>
                     </ListItem>
                     <Divider />
@@ -69,7 +69,7 @@ const Navbar = () => {
                     </ListItem>
                 </List>
             </Popover>
-            <LinkedInIcon onClick={handleLinkedInClick} color={"primary"} sx={{p: 2}} className={"linkedin-icon"}/>
+            <LinkedInIcon onClick={handleLinkedInClick} color={"danger"} sx={{p: 2}} className={"linkedin-icon"}/>
         </Grid>
     )
 }
