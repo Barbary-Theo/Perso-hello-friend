@@ -1,12 +1,16 @@
 import * as React from "react";
 import './../style_sheets/portail.css';
-import {Grid} from "@mui/material";
+import {Grid, Typography} from "@mui/material";
 import Navbar from "./nav-bar";
 
 const Portail = () => {
 
     return (
-        <Navbar />
+        <Grid container direction={"column"} justifyContent={"center"}>
+            <Navbar />
+
+
+        </Grid>
     )
 
 }

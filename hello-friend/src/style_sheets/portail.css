@@ -1,4 +1,9 @@
 
 body {
-    color: white;
+    background-color: white;
+    color: black;
+}
+
+.me {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
